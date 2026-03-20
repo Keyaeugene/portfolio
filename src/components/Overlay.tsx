@@ -44,7 +44,7 @@ export default function Overlay({ progress }: OverlayProps) {
             Eugene Keya
           </h1>
           <p className="text-xl md:text-3xl font-light text-neutral-300 tracking-wide">
-            Software Developer & AI Automation Engineer
+            Software Developer & AI Automation Engineer.
           </p>
         </motion.div>
       )}
@@ -55,8 +55,8 @@ export default function Overlay({ progress }: OverlayProps) {
         className="absolute inset-0 flex flex-col items-start justify-center text-left px-8 lg:px-24"
       >
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight max-w-2xl">
-          I build digital <br />
-          <span className="text-neutral-400 italic">experiences.</span>
+          Architecting scalable <br />
+          <span className="text-neutral-400 italic">software ecosystems.</span>
         </h2>
       </motion.div>
 
@@ -66,8 +66,8 @@ export default function Overlay({ progress }: OverlayProps) {
         className="absolute inset-0 flex flex-col items-end justify-center text-right px-8 lg:px-24"
       >
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight max-w-2xl">
-          Bridging design <br />
-          and <span className="text-white italic">engineering.</span>
+          Automating complexity. <br />
+          <span className="text-white italic">Built to scale.</span>
         </h2>
       </motion.div>
 

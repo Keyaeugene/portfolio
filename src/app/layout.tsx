@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe | Creative Developer",
+  title: "Eugene Keya | Software Developer & AI Automation Engineer",
   description: "Scrollytelling portfolio showcasing interactive web experiences.",
 };
 

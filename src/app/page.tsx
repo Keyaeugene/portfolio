@@ -5,6 +5,7 @@ import { useScroll } from "framer-motion";
 import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Overlay from "@/components/Overlay";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -32,6 +33,11 @@ export default function Home() {
         Projects grid located after the scroll zone.
       */}
       <Projects />
+      
+      {/* 
+        Aesthetic Footer with infinite technology marquee
+      */}
+      <Footer />
     </main>
   );
 }
