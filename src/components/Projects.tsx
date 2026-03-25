@@ -2,24 +2,24 @@ import { motion } from "framer-motion";
 
 const PROJECTS = [
   {
-    title: "Neural Pipeline Architecture",
-    description: "Designed a distributed microservice layer for real-time AI inference, utilizing Redis queues to reduce processing latency by 40%.",
-    tags: ["Python", "FastAPI", "Docker", "AWS"],
+    title: "Ktickets",
+    description: "Designed and implemented a high-throughput ticketing system for a major event, utilizing Node.js for the backend API, Redis for real-time inventory management, and Convex for scalable data storage, all deployed on Vercel for optimal performance.",
+    tags: ["TypeScript", "Node.js", "Convex", "Vercel"],
   },
   {
-    title: "Enterprise RAG Infrastructure",
-    description: "Built a highly concurrent Retrieval-Augmented Generation platform for automated, type-safe document analysis using vector embeddings.",
-    tags: ["TypeScript", "Next.js", "Pinecone", "LangChain"],
+    title: "Restaurant FAQ RAG Chatbot",
+    description: "Built a Retrieval-Augmented Generation (RAG) chatbot for a restaurant, leveraging OpenAI's language models and FAISS for efficient document retrieval, integrated seamlessly with Streamlit for an interactive user interface.",
+    tags: ["Python", "OpenAI", "FAISS", "LangChain", "Streamlit"],
   },
   {
-    title: "High-Frequency Data Sync",
-    description: "Engineered a fault-tolerant WebSocket streaming service capable of handling millions of real-time events with sub-millisecond execution.",
-    tags: ["Node.js", "Redis", "WebSockets", "Go"],
+    title: "Local Duka",
+    description: "Developed a local e-commerce platform for small businesses, featuring a responsive frontend and a robust backend powered by Flutter and Node.js.",
+    tags: ["Flutter", "Node.js", "PostgreSQL"],
   },
   {
-    title: "Zero-Downtime Automation CLI",
-    description: "Developed an internal CLI tool for automated, fail-safe database migrations and CI/CD pipeline deployments across distributed SQL rings.",
-    tags: ["Rust", "PostgreSQL", "GitHub Actions", "CLI"],
+    title: "Merry Chama Platform",
+    description: "Developed a community-driven platform for local businesses, featuring a modern frontend and a robust backend powered by Next.js and Turso.",
+    tags: ["Next.js", "Turso", "TypeScript", "Node.js"],
   },
 ];
 
