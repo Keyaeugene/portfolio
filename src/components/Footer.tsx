@@ -7,21 +7,21 @@ import { SiGithub } from "react-icons/si";
 import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { HiMail } from "react-icons/hi";
 
-import { 
-  SiNextdotjs, SiTypescript, SiPython, SiTailwindcss, SiReact, 
+import {
+  SiNextdotjs, SiTypescript, SiPython, SiTailwindcss, SiReact,
   SiNodedotjs, SiGraphql, SiDocker, SiFramer, SiPostgresql, SiVercel
 } from "react-icons/si";
 
 const TECH_STACK = [
-  SiNextdotjs, SiTypescript, SiPython, SiTailwindcss, SiReact, SiNodedotjs, 
+  SiNextdotjs, SiTypescript, SiPython, SiTailwindcss, SiReact, SiNodedotjs,
   SiGraphql, SiDocker, SiFramer, SiPostgresql, SiVercel
 ];
 const MARQUEE_ITEMS = [...TECH_STACK, ...TECH_STACK];
 
 const SOCIALS = [
   { Icon: HiMail, label: "Keyaeugene@gmail.com", href: "mailto:Keyaeugene@gmail.com", accent: "#e040fb" },
-  { Icon: SiGithub, label: "GitHub Profile", href: "#", accent: "#00c8ff" },
-  { Icon: FaLinkedinIn, label: "LinkedIn Profile", href: "#", accent: "#0ea5e9" },
+  { Icon: SiGithub, label: "GitHub Profile", href: "https://github.com/Keyaeugene", accent: "#00c8ff" },
+  { Icon: FaLinkedinIn, label: "LinkedIn Profile", href: "https://www.linkedin.com/in/eugene-keya-500698234/", accent: "#0ea5e9" },
   { Icon: FaXTwitter, label: "Twitter / X", href: "#", accent: "#a78bfa" },
 ];
 
