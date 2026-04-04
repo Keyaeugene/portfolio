@@ -34,18 +34,37 @@ export default function Overlay({ progress }: OverlayProps) {
   return (
     <div className="absolute inset-0 pointer-events-none text-white font-sans">
 
-      {/* SECTION 1 - Center — unmounted from DOM once scrolled past threshold */}
+      {/* SECTION 1 - Matches Requested Typography & Layout */}
       {showSection1 && (
         <motion.div
           style={{ opacity: opacity1 }}
-          className="absolute inset-0 flex flex-col items-center justify-center text-center"
+          className="absolute inset-0 flex flex-col items-start justify-center text-left px-8 lg:px-24"
         >
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-4">
-            Eugene Keya
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter mb-2 text-white">
+            Hi, I'm Eugene Keya
           </h1>
-          <p className="text-xl md:text-3xl font-light text-neutral-300 tracking-wide">
-            Software Developer & AI Automation Engineer.
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#00a2ff] mb-6 drop-shadow-[0_0_10px_rgba(0,162,255,0.4)]">
+            Software Developer & AI Automation Engineer
+          </h2>
+          <p className="text-base md:text-lg font-light text-neutral-300 max-w-2xl mb-8 leading-relaxed">
+            I craft digital experiences that combine robust engineering with elegant design.
+            From architecting scalable software ecosystems to automating complex workflows,
+            everything I build is meant to perform seamlessly.
           </p>
+          <div className="flex flex-wrap gap-4 lg:gap-6 pointer-events-auto">
+            <a 
+              href="mailto:Keyaeugene@gmail.com"
+              className="px-6 lg:px-8 py-3 bg-[#00a2ff] hover:bg-[#0081cc] text-black font-bold rounded-lg transition-all shadow-[0_0_15px_rgba(0,162,255,0.4)] hover:shadow-[0_0_25px_rgba(0,162,255,0.6)] text-center"
+            >
+              Hire Me
+            </a>
+            <a 
+              href="mailto:Keyaeugene@gmail.com"
+              className="px-6 lg:px-8 py-3 bg-transparent border-2 border-[#00a2ff] text-[#00a2ff] hover:bg-[#00a2ff]/10 font-bold rounded-lg transition-all text-center"
+            >
+              Let's Talk
+            </a>
+          </div>
         </motion.div>
       )}
 
@@ -54,9 +73,9 @@ export default function Overlay({ progress }: OverlayProps) {
         style={{ opacity: opacity2, y: y2 }}
         className="absolute inset-0 flex flex-col items-start justify-center text-left px-8 lg:px-24"
       >
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight max-w-2xl">
+        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight max-w-2xl">
           Architecting scalable <br />
-          <span className="text-neutral-400 italic">software ecosystems.</span>
+          <span className="text-[#00a2ff] drop-shadow-[0_0_10px_rgba(0,162,255,0.4)] italic">software ecosystems.</span>
         </h2>
       </motion.div>
 
@@ -65,9 +84,9 @@ export default function Overlay({ progress }: OverlayProps) {
         style={{ opacity: opacity3, y: y3 }}
         className="absolute inset-0 flex flex-col items-end justify-center text-right px-8 lg:px-24"
       >
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight max-w-2xl">
+        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight max-w-2xl">
           Automating complexity. <br />
-          <span className="text-white italic">Built to scale.</span>
+          <span className="text-[#00a2ff] drop-shadow-[0_0_10px_rgba(0,162,255,0.4)] italic">Built to scale.</span>
         </h2>
       </motion.div>
 
