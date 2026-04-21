@@ -46,6 +46,16 @@ const PROJECTS = [
     live: "#",
     accent: "#34d399",
   },
+  {
+    icon: "🤖",
+    title: "AI Chatbot for Programming Education Platform",
+    description:
+      "A real-time AI Tutor chatbot built with a modern, glassmorphism web interface. It connects users to a Google Gemini-powered AI agent using a Node.js/Socket.IO message broker.",
+    tags: ["Vanilla HTML, CSS, JavaScript", "Node.js, Express, Socket.IO", "Google Gemini API", "Python, Flask, Google GenAI SDK"],
+    github: "#",
+    live: "#",
+    accent: "#60a5fa",
+  },
 ];
 
 const cardVariant = {
